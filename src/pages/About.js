@@ -5,7 +5,7 @@ import Carousel from '../Components/Carousel';
 import Footer from '../Components/Footer';
 import {Container} from 'react-bootstrap';
 import MemberFill from '../Components/MemberFill'
-import { Founders, Retrograde, Nebula, Quasars, Meridians, Martians} from '../data/Member'
+import { FacultyAdvisors, Founders, Retrograde, Nebula, Quasars, Meridians, Martians} from '../data/Member'
 
 function About() {
     return (
@@ -115,16 +115,18 @@ function About() {
                     <p className='team'>TEAM</p>
                 </div>
                 <Container className='meettheteam-body'>
+                    <p className='teamName'>FACULTY ADVISORS</p>
+                    <MemberFill title={FacultyAdvisors}/>
                     <p className='teamName'>FOUNDERS</p>
                     <MemberFill title={Founders}/>
-                    <p className='teamName'>Nebula</p>
+                    {/* <p className='teamName'>Nebula</p>
                     <MemberFill title={Nebula}/>
                     <p className='teamName'>Martians</p>
                     <MemberFill title={Martians}/>
                     <p className='teamName'>Retrograde</p>
                     <MemberFill title={Retrograde}/>
                     <p className='teamName'>Quasars</p>
-                    <MemberFill title={Quasars}/>
+                    <MemberFill title={Quasars}/> */}
                     <p className='teamName'>Meridians</p>
                     <MemberFill title={Meridians}/>
                     

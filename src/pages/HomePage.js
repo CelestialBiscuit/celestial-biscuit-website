@@ -1,6 +1,6 @@
 import React from 'react'
 import Stamp from './../assets/Stamp.png'
-import Pooja from './../assets/pooja.png'
+import group_photo from './../assets/group_photo.jpg'
 import Gradient from './../assets/Gradient.png'
 import Carousel from './../Components/Carousel'
 import Footer from '../Components/Footer'
@@ -25,7 +25,7 @@ const HomePage = () => {
         </div>
         <div className="photos_row2">
           <div className="photos_row2_1">
-            <img src={Pooja} style={{height: '100%', width: '100%', objectFit: 'cover'}} alt="" srcset="" />
+            <img src={group_photo} style={{height: '100%', width: '100%', objectFit: 'cover'}} alt="" srcset="" />
           </div>
           <div className="photos_row2_2">
             <div className="photos_row2_2_text">

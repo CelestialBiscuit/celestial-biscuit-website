@@ -1,3 +1,16 @@
+export const FacultyAdvisors = [
+    {
+        "name": "Prof. AK Mohapatra",
+        "url": "https://res.cloudinary.com/dcu66bdvp/image/upload/c_fill,w_250,h_350/v1673976988/prof-akm_kuc76n.jpg",
+        "title":"FACULTY ADVISOR"
+    },
+    {
+        "name": "Ms Shweta Singhal",
+        "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350/v1727618713/Shweta-Singhal-3_ddkyjf_xo45z8.jpg",
+        "title":"FACULTY ADVISOR"
+    }
+]
+
 export const Founders=[
     {
         "name": "Pooja Gera",
