@@ -3,16 +3,16 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "./../assets/Logo.png";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {  NavLink } from "react-bootstrap";
+import { NavLink } from "react-bootstrap";
 import { useLocation } from "react-router";
-import {  useMediaQuery } from "@mui/material";
+import { useMediaQuery } from "@mui/material";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faRocket } from "@fortawesome/free-solid-svg-icons";
 
 const Nbar = () => {
   const location = useLocation();
   const matches = useMediaQuery("(max-width:767px)");
   const [open, setOpen] = useState(false);
-  // const [modalShow, setModalShow] = useState(false);
 
   return (
     <div>
@@ -22,19 +22,30 @@ const Nbar = () => {
 
           {matches ? (
             <>
-              <div className="nav-button-mobile">
+              <div className="nav-button-mobile" style={{ display: "flex", alignItems: "center" }}>
                 {open ? (
-                  <FontAwesomeIcon
-                    icon="fa-solid fa-xmark"
-                    onClick={() => setOpen(false)}
-                    className="cross-mark-nav"
-                  />
+                  <div className="cross-mark-nav" onClick={() => setOpen(false)} style={{ marginRight: "10px" }}>
+                    ✖ {/* Close icon */}
+                  </div>
                 ) : (
-                  <FontAwesomeIcon
-                    icon="fa-solid fa-bars"
-                    onClick={() => setOpen(true)}
-                  />
+                  <div onClick={() => setOpen(true)} style={{ marginRight: "10px" }}>
+                    ☰ {/* Hamburger icon */}
+                  </div>
                 )}
+
+                {/* Add the rocket icon next to the bars */}
+                <a
+                  href="https://cb-genesis.vercel.app"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{ display: "flex", alignItems: "center" }}
+                >
+                  <FontAwesomeIcon
+                    icon={faRocket}
+                    style={{ color: "#ffffff", marginTop: "5px", fontSize: "1.2rem"}}
+                    beatFade
+                  />
+                </a>
               </div>
 
               <div
@@ -65,7 +76,6 @@ const Nbar = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      {" "}
                       <FontAwesomeIcon
                         icon="fa-brands fa-twitter"
                         className="icon"
@@ -78,7 +88,6 @@ const Nbar = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      {" "}
                       <FontAwesomeIcon
                         icon="fa-brands fa-instagram"
                         className="icon"
@@ -91,7 +100,6 @@ const Nbar = () => {
                       target="_blank"
                       rel="noopener noreferrer"
                     >
-                      {" "}
                       <FontAwesomeIcon
                         icon="fa-brands fa-linkedin"
                         className="icon"
@@ -128,7 +136,6 @@ const Nbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
                     <FontAwesomeIcon
                       icon="fa-brands fa-twitter"
                       className="icon"
@@ -141,7 +148,6 @@ const Nbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
                     <FontAwesomeIcon
                       icon="fa-brands fa-instagram"
                       className="icon"
@@ -154,15 +160,27 @@ const Nbar = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {" "}
                     <FontAwesomeIcon
                       icon="fa-brands fa-linkedin"
                       className="icon"
                     />
                   </a>
                 </div>
+                <div>
+                  <a
+                    href="https://cb-genesis.vercel.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FontAwesomeIcon
+                      icon={faRocket}
+                      style={{ color: "#ffffff", marginTop: "8px" }}
+                      className="icon"
+                      beatFade
+                    />
+                  </a>
+                </div>
               </Nav>
-              
             </>
           )}
         </Container>

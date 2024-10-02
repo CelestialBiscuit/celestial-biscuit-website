@@ -2,9 +2,39 @@ import React from 'react'
 
 const PhotoGrid = () => {
   return (
+    
     <div className="gallery-main">
       <div className="gallery-container">
-        <div className="container">
+        <div className="container">          <div className="row-main">
+            <div className="column-main">
+              <div className="big-main img50"></div>
+            </div>
+            <div className="column-main">
+              <div className="row">
+                <div className="big img42"></div>
+                <div className="small img49"></div>
+              </div>
+              <div className="row">
+                <div className="small img44"></div>
+                <div className="big img45"></div>
+              </div>
+            </div>
+          </div>
+          <div className="row-main">
+            <div className="column-main">
+              <div className="row">
+                <div className="big img46"></div>
+                <div className="small img47"></div>
+              </div>
+              <div className="row">
+                <div className="small img41"></div>
+                <div className="big img43"></div>
+              </div>
+            </div>
+            <div className="column-main">
+              <div className="big-main img48"></div>
+            </div>
+          </div>
           <div className="row-main">
             <div className="column-main">
               <div className="big-main img1"></div>

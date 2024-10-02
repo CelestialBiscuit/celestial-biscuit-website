@@ -119,14 +119,14 @@ function About() {
                     <MemberFill title={FacultyAdvisors}/>
                     <p className='teamName'>FOUNDERS</p>
                     <MemberFill title={Founders}/>
-                    {/* <p className='teamName'>Nebula</p>
+                    <p className='teamName'>Nebula</p>
                     <MemberFill title={Nebula}/>
                     <p className='teamName'>Martians</p>
                     <MemberFill title={Martians}/>
                     <p className='teamName'>Retrograde</p>
                     <MemberFill title={Retrograde}/>
                     <p className='teamName'>Quasars</p>
-                    <MemberFill title={Quasars}/> */}
+                    <MemberFill title={Quasars}/>
                     <p className='teamName'>Meridians</p>
                     <MemberFill title={Meridians}/>
                     
