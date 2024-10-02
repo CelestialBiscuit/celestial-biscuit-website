@@ -109,16 +109,25 @@ function About() {
             <div className='meettheteam container'>
                 <div className='meettheteam-title'>
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
-                        <p style={{ fontStyle: 'italic' }}>Meet the</p>
+                        <p style={{ fontStyle: 'italic' }}></p>
                         <div className='line-3'></div>
                     </div>
-                    <p className='team'>TEAM</p>
+                    <p className='team'>THE TEAM</p>
                 </div>
                 <Container className='meettheteam-body'>
                     <p className='teamName'>FACULTY ADVISORS</p>
                     <MemberFill title={FacultyAdvisors}/>
                     <p className='teamName'>FOUNDERS</p>
                     <MemberFill title={Founders}/>
+
+                   
+                    <div className='meettheteam-title'>
+                    <div style={{ display: 'flex', justifyContent: 'center' }}>
+                        <div className='line-3'></div>
+                    </div>
+                    <p className='team'>PREVIOUS TEAM</p>
+                    </div>
+
                     <p className='teamName'>Nebula</p>
                     <MemberFill title={Nebula}/>
                     <p className='teamName'>Martians</p>
