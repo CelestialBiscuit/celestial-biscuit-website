@@ -5,7 +5,7 @@ import Carousel from '../Components/Carousel';
 import Footer from '../Components/Footer';
 import {Container} from 'react-bootstrap';
 import MemberFill from '../Components/MemberFill'
-import { FacultyAdvisors, Founders, Retrograde, Nebula, Quasars, Meridians, Martians} from '../data/Member'
+import { FacultyAdvisors, Solaris, Nebula, Meridians2425, Meridians, Solaris2425, Nebula2425} from '../data/Member'
 
 function About() {
     return (
@@ -107,40 +107,38 @@ function About() {
             </div>
             <Carousel />
             <div className='meettheteam container'>
-                <div className='meettheteam-title'>
-                    <div style={{ display: 'flex', justifyContent: 'center' }}>
-                        <p style={{ fontStyle: 'italic' }}></p>
-                        <div className='line-3'></div>
-                    </div>
-                    <p className='team'>THE TEAM</p>
-                </div>
-                <Container className='meettheteam-body'>
-                    <p className='teamName'>FACULTY ADVISORS</p>
-                    <MemberFill title={FacultyAdvisors}/>
-                    <p className='teamName'>FOUNDERS</p>
-                    <MemberFill title={Founders}/>
+    {/* Current Team */}
+    <div className='meettheteam-title'>
+        <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <p style={{ fontStyle: 'italic' }}></p>
+            <div className='line-3'></div>
+        </div>
+        <p className='team'>THE TEAM</p>
+    </div>
+    
+    <Container className='meettheteam-body'>
+        <p className='teamName'>FACULTY ADVISORS</p>
+        <MemberFill title={FacultyAdvisors}/>
+        
+        <p className="teamName">SOLARIS</p>
+        <MemberFill title={Solaris2425}/>
 
-                   
-                    <div className='meettheteam-title'>
-                    <div style={{ display: 'flex', justifyContent: 'center' }}>
-                        <div className='line-3'></div>
-                    </div>
-                    <p className='team'>PREVIOUS TEAM</p>
-                    </div>
+        <p className="teamName">NEBULA</p>
+        <MemberFill title={Nebula2425}/>
+        
+        <p className='teamName'>Meridians</p>
+        <MemberFill title={Meridians2425}/>
 
-                    <p className='teamName'>Nebula</p>
-                    <MemberFill title={Nebula}/>
-                    <p className='teamName'>Martians</p>
-                    <MemberFill title={Martians}/>
-                    <p className='teamName'>Retrograde</p>
-                    <MemberFill title={Retrograde}/>
-                    <p className='teamName'>Quasars</p>
-                    <MemberFill title={Quasars}/>
-                    <p className='teamName'>Meridians</p>
-                    <MemberFill title={Meridians}/>
-                    
-                </Container>
-            </div>
+        <p className='teamName'>HOUSE OF SOLARIS</p>
+        <MemberFill title={Solaris}/>
+
+        <p className='teamName'>HOUSE OF NEBULA</p>
+        <MemberFill title={Nebula}/>
+
+        <p className='teamName'>Past Meridians</p>
+        <MemberFill title={Meridians}/>
+    </Container>
+</div>
             <Footer />
         </>
 

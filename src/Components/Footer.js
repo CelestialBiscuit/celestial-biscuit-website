@@ -19,7 +19,7 @@ const Footer = () => {
             </div>
         </div>
         <div className='credit'>
-            CELESTIAL BISCUIT IGDTUW ⓒ 2024
+            CELESTIAL BISCUIT IGDTUW ⓒ 2025
         </div>
     </>
   )
