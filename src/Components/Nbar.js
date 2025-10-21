@@ -169,7 +169,8 @@ const Nbar = () => {
                 </div>
                 <div>
                   <a
-                    href="https://cb-genesis.vercel.app"
+                    href="https://genesis-25.vercel.app/"
+                    // href="https://cb-genesis.vercel.app"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
