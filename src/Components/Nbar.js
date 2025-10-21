@@ -35,7 +35,8 @@ const Nbar = () => {
 
                 {/* Add the rocket icon next to the bars */}
                 <a
-                  href="https://cb-genesis.vercel.app"
+                  href="https://genesis-25.vercel.app/"
+                  // href="https://cb-genesis.vercel.app"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{ display: "flex", alignItems: "center" }}
