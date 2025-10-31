@@ -63,17 +63,19 @@ export const Solaris=[
     }
 ]
 
-export const Solaris2425=[{
-    "name": "Ishita Paul ",
-    "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739771269/pfp_c4f4zw.jpg",
-    "title": "SOLARIS"
-},
-
-{
-    "name": "Saachi Bansal",
-    "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350/v1739898685/b9601d19-823b-48ad-8512-11eedee73dc8.png",
-    "title": "SOLARIS"
-}
+export const Solaris2425=[
+    { "name": "Shriya Sandilya", 
+      "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/v1761888962/Shriya_js9lti.jpg", 
+     "title": "SOLARIS" 
+    },
+    { "name": "Bhavya", 
+       "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/v1761888487/Bhavya_dzyflf.jpg", 
+      "title": "SOLARIS" 
+    },
+    { "name": "Jasleen Kaur", 
+     "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/v1761888488/Jasleen_ksyut4.jpg", 
+     "title": "SOLARIS" 
+    }
 ]
 
 export const Nebula=[
@@ -127,12 +129,10 @@ export const Meridians2425 = [
     { "name": "Archi Goyal", "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739772225/IMG-20241002-WA0270_4_-_Archi_Goyal_cznsl4.jpg", "title": "MERIDIAN" },
     { "name": "Arni Goyal", "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739772220/Arni_Goyal_-_Arni_Goyal_bzkkwd.jpg", "title": "MERIDIAN" },
     { "name": "Avani Mathur", "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739772223/IMG-20231031-WA0006_-_Avani_Mathur_037_c1kklo.jpg", "title": "MERIDIAN" },
-    { "name": "Bhavya", "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350/v1745986222/20250220_083144_0000_-_Bhavya_ll4a6q.png", "title": "MERIDIAN" },
     { "name": "Deepasha", "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739772221/my_photo_-_Deepasha_onf1p1.jpg", "title": "MERIDIAN" },
     { "name": "Ekamjot Kaur", "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739772224/WhatsApp_Image_2025-01-12_at_00.27.27_892bcb44_-_Ekamjot_Kaur_060_p4jy5k.jpg", "title": "MERIDIAN" },
     { "name": "Harshita Agarwal", "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739772226/IMG-20250209-WA0007_-_Harshita_Agarwal_b068qb.jpg", "title": "MERIDIAN" },
     { "name": "Himani Gupta", "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739772227/IMG_3026_-_Himani_Gupta_bklxl9.jpg", "title": "MERIDIAN" },
-    { "name": "Jasleen Kaur", "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350/v1745986211/Me_-_jasleen_kaur_eql0qe.jpg", "title": "MERIDIAN" },
     { "name": "Kavya Chaudhari", "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1745987230/Kavya_image_-_kavya_chaudhari_z7uzda.jpg", "title": "MERIDIAN" },
     { "name": "Nandini Jain", "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1745986211/WhatsApp_Image_2025-02-16_at_20.36.04_8b8aa7eb_-_Nandini_Jain_fafqgh.jpg", "title": "MERIDIAN" },
     { "name": "Nandini Pandey", "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739772219/cb_img_-_Nandini_Pandey_ohjlpl.jpg", "title": "MERIDIAN" },
@@ -144,7 +144,6 @@ export const Meridians2425 = [
     { "name": "Rupali Kardam", "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1745986211/profile_-_Rupali_Kardam_lbzm1c.jpg", "title": "MERIDIAN" },
     { "name": "Rose Kakrania", "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739772227/Screenshot_2025-02-16-23-03-18-474_com.miui.gallery_-_Rose_Kakrania_r29tuq.png", "title": "MERIDIAN" },
     { "name": "Shanvi", "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739772222/WhatsApp_Image_2025-01-21_at_17.28.30_1_-_Shanvi_l1eib8.jpg", "title": "MERIDIAN" },
-    { "name": "Shriya Sandilya", "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739772219/WhatsApp_Image_2025-02-12_at_9.14.22_PM_-_Shriya_muodwr.jpg", "title": "MERIDIAN" },
     { "name": "Shweta Surbhi", "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350/v1739772220/potrait_pic_-_Shweta_Surbhi_efyljb.jpg", "title": "MERIDIAN" },
     { "name": "Snigdha Choudhury", "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739772228/Picsart_24-12-02_17-17-04-038_-_Snigdha_Choudhury_aipmkb.jpg", "title": "MERIDIAN" },
     { "name": "Taneesha Nayal", "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1745986222/Polish_20240824_225936879_3_-_Taneesha_Nayal_lcd4gh.jpg", "title": "MERIDIAN" },
