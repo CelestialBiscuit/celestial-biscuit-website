@@ -49,6 +49,17 @@ export const Solaris=[
         "name": "Sanskriti Agarwal ",
         "url": "https://res.cloudinary.com/dcu66bdvp/image/upload/v1669641361/cb0252_ig9vkn.png",
         "title": "SOLARIS (2023-24)"
+    },
+    {
+    "name": "Ishita Paul ",
+    "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739771269/pfp_c4f4zw.jpg",
+    "title": "SOLARIS (2024-25)"
+    },
+
+    {
+    "name": "Saachi Bansal",
+    "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350/v1739898685/b9601d19-823b-48ad-8512-11eedee73dc8.png",
+    "title": "SOLARIS (2024-25)"
     }
 ]
 
