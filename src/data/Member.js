@@ -65,15 +65,16 @@ export const Solaris=[
 
 export const Solaris2425=[
     { "name": "Shriya Sandilya", 
-      "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/v1761888962/Shriya_js9lti.jpg", 
+      "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739772219/WhatsApp_Image_2025-02-12_at_9.14.22_PM_-_Shriya_muodwr.jpg", 
      "title": "SOLARIS" 
     },
     { "name": "Bhavya", 
-       "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/v1761888487/Bhavya_dzyflf.jpg", 
+       "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350/v1745986222/20250220_083144_0000_-_Bhavya_ll4a6q.png
+", 
       "title": "SOLARIS" 
     },
     { "name": "Jasleen Kaur", 
-     "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/v1761888488/Jasleen_ksyut4.jpg", 
+     "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350/v1745986211/Me_-_jasleen_kaur_eql0qe.jpg", 
      "title": "SOLARIS" 
     }
 ]
