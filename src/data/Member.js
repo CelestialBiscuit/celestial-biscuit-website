@@ -51,30 +51,33 @@ export const Solaris=[
         "title": "SOLARIS (2023-24)"
     },
     {
-    "name": "Ishita Paul ",
-    "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739771269/pfp_c4f4zw.jpg",
-    "title": "SOLARIS (2024-25)"
+        "name": "Ishita Paul ",
+        "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739771269/pfp_c4f4zw.jpg",
+        "title": "SOLARIS (2024-25)"
     },
 
     {
-    "name": "Saachi Bansal",
-    "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350/v1739898685/b9601d19-823b-48ad-8512-11eedee73dc8.png",
-    "title": "SOLARIS (2024-25)"
+        "name": "Saachi Bansal",
+        "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350/v1739898685/b9601d19-823b-48ad-8512-11eedee73dc8.png",
+        "title": "SOLARIS (2024-25)"
     }
 ]
 
 export const Solaris2425=[
-    { "name": "Bhavya", 
-       "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350/v1745986222/20250220_083144_0000_-_Bhavya_ll4a6q.png", 
-      "title": "SOLARIS" 
+    { 
+        "name": "Bhavya", 
+        "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350/v1761888487/Bhavya_dzyflf.jpg", 
+        "title": "SOLARIS" 
     },
-    { "name": "Jasleen Kaur", 
-     "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350/v1745986211/Me_-_jasleen_kaur_eql0qe.jpg", 
-     "title": "SOLARIS" 
+    { 
+        "name": "Jasleen Kaur", 
+        "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350/v1761888488/Jasleen_ksyut4.jpg", 
+        "title": "SOLARIS" 
     },
-    { "name": "Shriya Sandilya", 
-      "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739772219/WhatsApp_Image_2025-02-12_at_9.14.22_PM_-_Shriya_muodwr.jpg", 
-     "title": "SOLARIS" 
+    { 
+        "name": "Shriya Sandilya", 
+        "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350/v1761888962/Shriya_js9lti.jpg", 
+        "title": "SOLARIS" 
     }
 ]
 
@@ -106,35 +109,42 @@ export const Nebula=[
         "title": "NEBULA (2023-24)"
     },
     {
-    "name": "Himanshi Kaushal ",
-    "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_crop,w_250,h_350/v1739771556/Screenshot_2025-02-17_112057_sxojgs.png",
-    "title": "NEBULA (2024-25)"
+        "name": "Himanshi Kaushal ",
+        "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_crop,w_250,h_350/v1739771556/Screenshot_2025-02-17_112057_sxojgs.png",
+        "title": "NEBULA (2024-25)"
     },
     {
-    "name": "Ipshita Tandon ",
-    "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350/v1739771576/Screenshot_2025-02-17_112125_yvrgwl.png",
-    "title": "NEBULA (2024-25)"
+        "name": "Ipshita Tandon ",
+        "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350/v1739771576/Screenshot_2025-02-17_112125_yvrgwl.png",
+        "title": "NEBULA (2024-25)"
     },
     {
-    "name": "Trisha Tomy ",
-    "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739897265/3c6959ef-acb3-40d0-b540-9efec16b763d.png",
-    "title": "NEBULA (2024-25)"
+        "name": "Trisha Tomy ",
+        "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739897265/3c6959ef-acb3-40d0-b540-9efec16b763d.png",
+        "title": "NEBULA (2024-25)"
     }
 ]
 
 export const Nebula2425=[
     { 
-     "name": "Himani Gupta", 
-     "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739772227/IMG_3026_-_Himani_Gupta_bklxl9.jpg", 
-     "title": "NEBULA" 
+        "name": "Himani Gupta", 
+        "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1761938807/Screenshot_2025-11-01_005625_vsudcu.png", 
+        "title": "NEBULA" 
     },
-    { "name": "Rose Kakrania", 
-     "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739772227/Screenshot_2025-02-16-23-03-18-474_com.miui.gallery_-_Rose_Kakrania_r29tuq.png", 
-     "title": "NEBULA"
+    { 
+        "name": "Rose Kakrania", 
+        "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1761888497/Rose_nuyc3v.jpg", 
+        "title": "NEBULA"
     },
-    { "name": "Shanvi",
-     "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739772222/WhatsApp_Image_2025-01-21_at_17.28.30_1_-_Shanvi_l1eib8.jpg", 
-     "title": "NEBULA" 
+    { 
+        "name": "Shanvi",
+        "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1739772222/WhatsApp_Image_2025-01-21_at_17.28.30_1_-_Shanvi_l1eib8.jpg", 
+        "title": "NEBULA" 
+    },
+    {
+        "name": "Palak Khanna",
+        "url": "https://res.cloudinary.com/dv7ppy9su/image/upload/c_fill,w_250,h_350,g_auto/v1761888487/Palak_a2z7vz.jpg", 
+        "title": "NEBULA" 
     }
 ]
 
