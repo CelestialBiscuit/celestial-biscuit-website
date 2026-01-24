@@ -1,5 +1,13 @@
 export const webApp = [
     {
+      "ProjectName": "Git for Spotify",
+      "Desc": "Collaborative playlists often turn chaotic when too many people pitch in. Git for Spotify brings version-control principles to music curation, allowing users to suggest songs, review changes, and approve additions—keeping shared playlists organized and intentional."
+    },
+    {
+      "ProjectName": "IGDTUW Marketplace",
+      "Desc": "The IGDTUW Marketplace is a student-centric platform for buying, selling, and exchanging campus-related items like books, calculators, and event tickets. It promotes sustainable consumption while providing a trusted and simplified peer-to-peer transaction system."
+    },
+    {
       "ProjectName": "Events Portal",
       "Desc": "Tired of Whatsapp groups being bombarded with college society events? Aren't able to find the right event for you in the sea of posters? Say no more, Event Portal is here for you, a web-application with details regarding all the events at one place and the option of applying filters on the type of events according to your interest."
     },
@@ -86,6 +94,10 @@ export const webApp = [
   
   export const mobileApp = [
     {
+       "ProjectName": "Teamder",
+       "Desc": "Finding the right teammates for projects and hackathons can be awkward and time-consuming. Teamder simplifies team formation by matching students based on skills, interests, and availability. With an intuitive swipe-based interface, users can connect with collaborators who align with their goals, making team building smarter and more effective."
+    },
+    {
       "ProjectName": "Canteen Food Ordering System",
       "Desc": "Find it inconvenient to get food from the canteen, waiting in queues all the while managing classes? Lo and behold, we've got Canteen Food Ordering System for you, an application with Swiggy/Zomato level interface for menu, online payment, and one and only Canteen bhaiya as the admin."
     },
@@ -132,6 +144,18 @@ export const webApp = [
   ]
 
   export const ML = [
+    {
+      "ProjectName": "QuizMaker",
+      "Desc": "Preparing for exams becomes more efficient with QuizMaker. The application automatically generates quiz questions from uploaded notes, helping students assess their understanding and revise effectively through smart, ML-driven practice."
+    },
+    {
+      "ProjectName": "GateKeeper",
+      "Desc": "GateKeeper automates campus vehicle monitoring using real-time license plate recognition. The system logs vehicle entry and exit, identifies unauthorized vehicles, and improves parking management while enhancing overall campus security."
+    },
+    {
+      "ProjectName": "Audio to Mind Map",
+      "Desc": "Audio to Mind Map converts voice notes or live speech into structured mind maps and summaries using NLP techniques. Designed for students and creatives, it helps organize ideas visually and ensures important thoughts are captured effortlessly."
+    },
     {
       "ProjectName": "Real Time Automatic License Plate Recognition for Faculty Cars",
       "Desc": "Waiting at the parking lot for entry makes us feel so stuck and helpless, doesn't it? Not anymore, as this project is a real-time Automatic License Plate Recognition for Faculty Cars in the campus and adding them to the database with in/out timestamp aiming to automate a monotonous and time-consuming process for both, the security person maintaining the records at the gate, and the people lined up in the queue for entry!"
