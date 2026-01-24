@@ -1,11 +1,11 @@
 export const webApp = [
     {
-      "ProjectName": "Git for Spotify",
-      "Desc": "Collaborative playlists often turn chaotic when too many people pitch in. Git for Spotify brings version-control principles to music curation, allowing users to suggest songs, review changes, and approve additions—keeping shared playlists organized and intentional."
-    },
-    {
       "ProjectName": "IGDTUW Marketplace",
       "Desc": "The IGDTUW Marketplace is a student-centric platform for buying, selling, and exchanging campus-related items like books, calculators, and event tickets. It promotes sustainable consumption while providing a trusted and simplified peer-to-peer transaction system."
+    },
+    {
+      "ProjectName": "Git for Spotify",
+      "Desc": "Collaborative playlists often turn chaotic when too many people pitch in. Git for Spotify brings version-control principles to music curation, allowing users to suggest songs, review changes, and approve additions—keeping shared playlists organized and intentional."
     },
     {
       "ProjectName": "Events Portal",
